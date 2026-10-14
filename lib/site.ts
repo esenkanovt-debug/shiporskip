@@ -12,6 +12,8 @@ export type Verdict = "Ship" | "Skip" | "Wait";
 export type Row = { tool: string; category: string; works: number; ttv: number; price: number; hype: number; verdict: Verdict; issue: string; example?: boolean; sponsored?: boolean };
 // No real reviews yet. Example rows are clearly labeled and exist only to show the format.
 export const ROWS: Row[] = [
-  { tool: "Example Agent A", category: "Coding agent", works: 4, ttv: 3, price: 2, hype: 3, verdict: "Ship", issue: "Example", example: true },
-  { tool: "Example Builder B", category: "Vibe-coding app builder", works: 2, ttv: 4, price: 3, hype: 1, verdict: "Skip", issue: "Example", example: true },
+  { tool: "agent-engineer", category: "Agent plugin (skills/hooks)", works: 8, ttv: 7, price: 10, hype: 6, verdict: "Ship", issue: "#1" },
+  { tool: "Garuda", category: "Coding agent (CLI)", works: 6, ttv: 6, price: 9, hype: 7, verdict: "Ship", issue: "#1" },
+  { tool: "Codync", category: "Agent remote / bots", works: 5, ttv: 7, price: 9, hype: 6, verdict: "Wait", issue: "#1" },
+  { tool: "Ruflo", category: "Multi-agent harness", works: 3, ttv: 4, price: 7, hype: 2, verdict: "Skip", issue: "#1" },
 ];

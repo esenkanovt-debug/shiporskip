@@ -10,7 +10,7 @@ export default function Scoreboard({ limit }: { limit?: number }) {
           {rows.map(r => (
             <tr key={r.tool} className="border-t border-white/10">
               <th scope="row" className="px-4 py-3 font-semibold text-white">{r.tool}{r.example && <span className="ml-2 rounded bg-yellow-400/15 px-1.5 py-0.5 text-xs text-yellow-300">EXAMPLE — not a real review</span>}</th>
-              <td className="px-4 py-3">{r.category}</td><td className="px-4 py-3">{r.works}/5</td><td className="px-4 py-3">{r.ttv}/5</td><td className="px-4 py-3">{r.price}/5</td><td className="px-4 py-3">{r.hype}/5</td>
+              <td className="px-4 py-3">{r.category}</td><td className="px-4 py-3">{r.works}/10</td><td className="px-4 py-3">{r.ttv}/10</td><td className="px-4 py-3">{r.price}/10</td><td className="px-4 py-3">{r.hype}/10</td>
               <td className="px-4 py-3"><span className={`rounded px-2 py-1 font-bold ${r.verdict==="Ship"?"bg-ship/15 text-ship":r.verdict==="Skip"?"bg-skip/15 text-skip":"bg-white/10"}`}>{r.verdict}</span></td>
             </tr>))}
         </tbody>
