@@ -19,6 +19,12 @@ const nav = [["/issues","Issues"],["/scoreboard","Scoreboard"],["/guides","Guide
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
+      <head>
+        <meta
+          name="impact-site-verification"
+          {...({ value: "104581ee-2cd2-4158-9cd1-57aff77afb47" } as React.HTMLAttributes<HTMLMetaElement>)}
+        />
+      </head>
       <body className="min-h-screen font-sans antialiased">
         <a href="#main" className="sr-only focus:not-sr-only focus:absolute focus:left-2 focus:top-2 focus:bg-white focus:px-3 focus:py-2 focus:text-ink">Skip to content</a>
         <header className="mx-auto flex max-w-5xl items-center justify-between gap-4 px-5 py-5">
