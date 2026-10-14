@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   title: "Issues",
   description: "Every Ship or Skip issue: hands-on verdicts on new AI agent and vibe-coding tools, with receipts.",
   alternates: { canonical: "/issues" },
-  openGraph: { type: "website", url: `${SITE_URL}/issues`, title: `Issues · ${SITE_NAME}`, description: "Every Ship or Skip issue: hands-on verdicts on new AI agent and vibe-coding tools." },
+  openGraph: { type: "website", url: `${SITE_URL}/issues`, title: `Issues · ${SITE_NAME}`, description: "Every Ship or Skip issue: hands-on verdicts on new AI agent and vibe-coding tools.", images: [{ url: "/opengraph-image", width: 1200, height: 630 }] },
 };
 export default function Page() {
   const ld = { "@context": "https://schema.org", "@type": "CollectionPage", name: `${SITE_NAME} issues`, url: `${SITE_URL}/issues`,

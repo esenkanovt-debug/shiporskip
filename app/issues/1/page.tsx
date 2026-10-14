@@ -9,8 +9,8 @@ const url = `${SITE_URL}/issues/1`;
 export const metadata: Metadata = {
   title: issue.title, description: issue.description,
   alternates: { canonical: "/issues/1" },
-  openGraph: { type: "article", url, title: issue.title, description: issue.description, publishedTime: issue.date, authors: ["Midas"], siteName: SITE_NAME },
-  twitter: { card: "summary_large_image", title: issue.title, description: issue.description },
+  openGraph: { type: "article", url, title: issue.title, description: issue.description, publishedTime: issue.date, authors: ["Midas"], siteName: SITE_NAME, images: [{ url: "/opengraph-image", width: 1200, height: 630, alt: issue.title }] },
+  twitter: { card: "summary_large_image", title: issue.title, description: issue.description, images: ["/opengraph-image"] },
 };
 type Tool = { id: string; verdict: "SHIP" | "SHIP (with an asterisk)" | "WAIT" | "SKIP THIS"; name: string; tagline: string; meta: string; scores: [number, number, number, number]; intro?: string; bullets: string[]; img?: boolean };
 const TOOLS: Tool[] = [
