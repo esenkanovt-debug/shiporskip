@@ -1,0 +1,16 @@
+# Ship or Skip
+
+> Ship or Skip is a weekly newsletter and public scoreboard that hands-on tests new AI agent and vibe-coding tools and gives each a verdict: Ship, Skip, or Wait.
+
+Each tool is run on a real task and scored 1-5 on: does it work, time-to-value, price, and hype vs reality. Every review includes receipts (the task run, a screenshot, and the failure mode). Each issue includes a "Skip this" pick. Sponsored tools are always disclosed and never scored favourably.
+
+Status: launched October 2026. No real reviews are published yet; scoreboard rows marked EXAMPLE are format placeholders, not reviews.
+
+## Pages
+- [Home](https://shiporskip.vercel.app/): value proposition, newsletter signup, latest verdicts, scoring overview
+- [Scoreboard](https://shiporskip.vercel.app/scoreboard): every tool tested with scores and verdicts
+- [About & methodology](https://shiporskip.vercel.app/about): how we test, scoring rubric, sponsor policy, corrections
+- [Sponsor](https://shiporskip.vercel.app/sponsor): sponsorship terms and contact
+
+## Contact
+- shiporskip@mail.grokbot.com

@@ -1,0 +1,4 @@
+@import "tailwindcss";
+@theme { --color-ship: #22c55e; --color-skip: #f43f5e; --color-ink: #0b0d12; --font-sans: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+html { background: var(--color-ink); color: #e5e7eb; }
+:focus-visible { outline: 2px solid #facc15; outline-offset: 2px; }
