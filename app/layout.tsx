@@ -15,7 +15,7 @@ export const viewport: Viewport = { themeColor: "#0b0d12", width: "device-width"
 const jsonLd = { "@context": "https://schema.org", "@graph": [
   { "@type": "Organization", "@id": `${SITE_URL}/#org`, name: SITE_NAME, url: SITE_URL, email: CONTACT, description: TAGLINE },
   { "@type": "WebSite", "@id": `${SITE_URL}/#website`, name: SITE_NAME, url: SITE_URL, publisher: { "@id": `${SITE_URL}/#org` }, inLanguage: "en" } ] };
-const nav = [["/scoreboard","Scoreboard"],["/about","Methodology"],["/sponsor","Sponsor"]];
+const nav = [["/issues","Issues"],["/scoreboard","Scoreboard"],["/about","Methodology"],["/sponsor","Sponsor"]];
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">

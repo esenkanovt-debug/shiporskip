@@ -2,12 +2,14 @@
 
 > Ship or Skip is a weekly newsletter and public scoreboard that hands-on tests new AI agent and vibe-coding tools and gives each a verdict: Ship, Skip, or Wait.
 
-Each tool is run on a real task and scored 1-5 on: does it work, time-to-value, price, and hype vs reality. Every review includes receipts (the task run, a screenshot, and the failure mode). Each issue includes a "Skip this" pick. Sponsored tools are always disclosed and never scored favourably.
+Each tool is run on a real task and scored out of 10 on: does it work, time-to-value, price, and hype vs reality. Every review includes receipts (the task run, a screenshot, and the failure mode). Each issue includes a "Skip this" pick. Sponsored tools are always disclosed and never scored favourably.
 
-Status: launched October 2026. No real reviews are published yet; scoreboard rows marked EXAMPLE are format placeholders, not reviews.
+Status: launched October 2026. Issue #1 published 14 October 2026 (agent-engineer: Ship, Garuda: Ship*, Codync: Wait, Ruflo: Skip).
 
 ## Pages
 - [Home](https://shiporskip-ship-or-skip.vercel.app/): value proposition, newsletter signup, latest verdicts, scoring overview
+- [Issues](https://shiporskip-ship-or-skip.vercel.app/issues): archive of every issue
+- [Issue #1](https://shiporskip-ship-or-skip.vercel.app/issues/1): agent-engineer, Garuda, Codync and Ruflo tested hands-on with a local model
 - [Scoreboard](https://shiporskip-ship-or-skip.vercel.app/scoreboard): every tool tested with scores and verdicts
 - [About & methodology](https://shiporskip-ship-or-skip.vercel.app/about): how we test, scoring rubric, sponsor policy, corrections
 - [Sponsor](https://shiporskip-ship-or-skip.vercel.app/sponsor): sponsorship terms and contact

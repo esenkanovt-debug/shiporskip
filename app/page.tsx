@@ -12,7 +12,7 @@ export default function Home() {
     </section>
     <section aria-labelledby="latest" className="py-10">
       <div className="mb-4 flex items-end justify-between"><h2 id="latest" className="text-2xl font-bold text-white">Latest verdicts</h2><Link href="/scoreboard" className="text-sm text-gray-300 underline">Full scoreboard →</Link></div>
-      <p className="mb-4 text-gray-400">Issue #1 is on the bench right now. Until then, here's what a verdict looks like (example rows, not real reviews):</p>
+      <p className="mb-4 text-gray-400">From <Link href="/issues/1" className="text-ship underline">Issue #1</Link>: one Ship, one Skip, and a snake that never moved. <Link href="/issues/1" className="underline">Read the full issue →</Link></p>
       <Scoreboard limit={2} />
     </section>
     <section aria-labelledby="how" className="py-10">
