@@ -8,7 +8,7 @@ export default function Page() {
     <h2>Methodology</h2>
     <p>Each tool gets a real, repeatable task (e.g. "build a working to-do app with auth", "fix this failing test", "ship a landing page"). We record:</p>
     <ul className="mt-3 list-disc pl-6"><li><strong>The task run</strong> — exact prompt and setup.</li><li><strong>The screenshot</strong> — what we actually got.</li><li><strong>The failure mode</strong> — where and how it broke, if it did.</li></ul>
-    <p>Then we score four things, each out of 5:</p>
+    <p>Then we score four things, each out of 10:</p>
     <ul className="mt-3 list-disc pl-6">{CRITERIA.map(c=><li key={c.name}><strong>{c.name}</strong> — {c.desc}</li>)}</ul>
     <p>The verdict is <strong className="text-ship">Ship</strong> (use it), <strong className="text-skip">Skip</strong> (don't), or Wait (promising, not yet). Every issue also has one <strong>"Skip this"</strong> pick.</p>
     <h2>Sponsor policy</h2>
