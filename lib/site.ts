@@ -1,4 +1,4 @@
-export const SITE_URL = (process.env.NEXT_PUBLIC_SITE_URL || "https://shiporskip.vercel.app").replace(/\/$/, "");
+export const SITE_URL = (process.env.NEXT_PUBLIC_SITE_URL || "https://shiporskip-ship-or-skip.vercel.app").replace(/\/$/, "");
 export const SITE_NAME = "Ship or Skip";
 export const CONTACT = "shiporskip@mail.grokbot.com";
 export const TAGLINE = "We actually ran it. Hands-on verdicts on new AI agent and vibe-coding tools.";
