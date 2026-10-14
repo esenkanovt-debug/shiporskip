@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
 import { CRITERIA, CONTACT } from "@/lib/site";
+import Faq from "@/components/Faq";
+import { ABOUT_FAQ } from "@/lib/faq";
 export const metadata: Metadata = { title: "About & methodology", description: "How Ship or Skip tests AI tools: real tasks, receipts, four criteria, and a strict sponsor policy.", alternates: { canonical: "/about" } };
 export default function Page() {
   return (<article className="prose-invert max-w-3xl py-12 [&_h2]:mt-10 [&_h2]:text-2xl [&_h2]:font-bold [&_h2]:text-white [&_p]:mt-3 [&_p]:text-gray-300 [&_li]:text-gray-300">
@@ -15,5 +17,6 @@ export default function Page() {
     <ul className="mt-3 list-disc pl-6"><li>Sponsored placements are always labeled "Sponsored", in the email and on the site.</li><li>Sponsored tools are tested with the same rubric and are <strong>never scored favourably</strong>. Sponsors don't see or approve verdicts in advance.</li><li>Paying us doesn't keep you off the Skip list.</li><li>We don't use affiliate links in verdicts.</li></ul>
     <h2>Corrections</h2>
     <p>Tools change fast. If we got something wrong or a fix shipped, email <a className="underline" href={`mailto:${CONTACT}`}>{CONTACT}</a> and we'll retest and note the update.</p>
+    <Faq items={ABOUT_FAQ} id="about-faq" />
   </article>);
 }

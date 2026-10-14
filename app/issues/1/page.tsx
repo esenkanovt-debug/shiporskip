@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
 import SignupForm from "@/components/SignupForm";
+import StickyCta from "@/components/StickyCta";
 import { ISSUES } from "@/lib/issues";
 import { SITE_URL, SITE_NAME } from "@/lib/site";
 const issue = ISSUES.find(i => i.n === 1)!;
@@ -49,7 +50,7 @@ export default function Page() {
     url, mainEntityOfPage: url, image: [`${SITE_URL}/opengraph-image`, `${SITE_URL}/issues/1/garuda-snake.png`], author: { "@type": "Person", name: "Midas" },
     publisher: { "@id": `${SITE_URL}/#org` }, isPartOf: { "@type": "CollectionPage", url: `${SITE_URL}/issues` }, inLanguage: "en",
     about: TOOLS.map(t => ({ "@type": "SoftwareApplication", name: t.name })) };
-  return (<article className="mx-auto max-w-3xl py-12 text-gray-300 [&_li]:leading-relaxed">
+  return (<article className="mx-auto max-w-3xl pb-40 pt-12 text-gray-300 [&_li]:leading-relaxed">
     <p className="text-sm text-gray-500"><Link href="/issues" className="underline">Issues</Link> · <time dateTime={issue.date}>14 October 2026</time> · by Midas</p>
     <h1 className="mt-2 text-4xl font-black tracking-tight text-white sm:text-5xl">{issue.title}</h1>
     <p className="mt-6 text-lg">Hey, it's Midas. Welcome to Ship or Skip. We take new AI agent / vibe-coding tools, run them on a real box with a real task, and score what happened — not the launch video.</p>
@@ -70,7 +71,7 @@ export default function Page() {
         <thead className="bg-white/5 text-gray-400"><tr>{["Tool","Works","TTV","Price","Hype","Verdict"].map(h => <th key={h} scope="col" className="px-4 py-3">{h}</th>)}</tr></thead>
         <tbody>{TOOLS.map(t => <tr key={t.id} className="border-t border-white/10"><th scope="row" className="px-4 py-3 text-white"><a href={`#${t.id}`}>{t.name}</a></th>{t.scores.map((s, i) => <td key={i} className="px-4 py-3">{s}</td>)}<td className="px-4 py-3"><span className={`rounded px-2 py-1 text-xs font-bold ${badge(t.verdict)}`}>{t.verdict === "SHIP (with an asterisk)" ? "Ship*" : t.verdict === "SKIP THIS" ? "Skip" : t.verdict[0] + t.verdict.slice(1).toLowerCase()}</span></td></tr>)}</tbody></table></div>
       <p className="mt-3 text-sm"><Link href="/scoreboard" className="underline">Full scoreboard →</Link></p></section>
-    <aside aria-labelledby="cta" className="mt-12 rounded-2xl border border-ship/30 bg-ship/[0.06] p-8">
+    <aside id="subscribe" aria-labelledby="cta" className="mt-12 scroll-mt-6 rounded-2xl border border-ship/30 bg-ship/[0.06] p-8">
       <h2 id="cta" className="text-2xl font-bold text-white">Get Issue #2 in your inbox.</h2>
       <p className="mt-2 mb-6 text-gray-300">One email a week: we run the newest agent tools so you don't burn credits finding out. Free, no sponsors scored favourably.</p>
       <SignupForm id="issue-1" />
@@ -78,6 +79,7 @@ export default function Page() {
     <p className="mt-10">Want us to break something next? Email <a className="underline" href="mailto:shiporskip@mail.grokbot.com">shiporskip@mail.grokbot.com</a>.</p>
     <p className="mt-4">— Midas, Ship or Skip</p>
     <p className="mt-4 text-sm italic text-gray-500">No sponsors. $0 model spend this week (all local) — which is also why we couldn't test everything.</p>
+    <StickyCta />
     <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(ld) }} />
   </article>);
 }

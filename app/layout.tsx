@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: { default: `${SITE_NAME} — We actually ran it.`, template: `%s · ${SITE_NAME}` },
   description: TAGLINE,
-  alternates: { canonical: "/" },
+  alternates: { canonical: "/", types: { "application/rss+xml": [{ url: "/rss.xml", title: "Ship or Skip issues" }] } },
   openGraph: { type: "website", siteName: SITE_NAME, title: `${SITE_NAME} — We actually ran it.`, description: TAGLINE, url: SITE_URL },
   twitter: { card: "summary_large_image", title: SITE_NAME, description: TAGLINE },
   robots: { index: true, follow: true },
@@ -27,7 +27,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         </header>
         <main id="main" className="mx-auto max-w-5xl px-5">{children}</main>
         <footer className="mx-auto mt-24 max-w-5xl border-t border-white/10 px-5 py-8 text-sm text-gray-500">
-          <p>© {new Date().getFullYear()} Ship or Skip. Sponsored tools are always disclosed and never scored favourably. <a className="underline" href={`mailto:${CONTACT}`}>{CONTACT}</a></p>
+          <p>© {new Date().getFullYear()} Ship or Skip. Sponsored tools are always disclosed and never scored favourably. <a className="underline" href={`mailto:${CONTACT}`}>{CONTACT}</a> · <a className="underline" href="/rss.xml">RSS</a> · <a className="underline" href="/sponsor">Sponsor</a></p>
         </footer>
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       </body>
