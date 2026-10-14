@@ -25,6 +25,8 @@ Status: launched October 2026. Issue #1 published 14 October 2026 (agent-enginee
 - [Devin alternatives](https://shiporskip-ship-or-skip.vercel.app/alternatives/devin): sourced comparison with pricing links, checked 14 Oct 2026
 - [Cursor alternatives](https://shiporskip-ship-or-skip.vercel.app/alternatives/cursor): sourced comparison with pricing links, checked 14 Oct 2026
 - [Lovable alternatives](https://shiporskip-ship-or-skip.vercel.app/alternatives/lovable): sourced comparison with pricing links, checked 14 Oct 2026
+- [Bolt.new alternatives](https://shiporskip-ship-or-skip.vercel.app/alternatives/bolt): sourced comparison with pricing links, checked 14 Oct 2026
+- [v0 vs Lovable](https://shiporskip-ship-or-skip.vercel.app/compare/v0-vs-lovable): sourced comparison with pricing links, checked 14 Oct 2026
 - [Best AI coding agents in 2026 by use case](https://shiporskip-ship-or-skip.vercel.app/best/ai-coding-agents-2026): sourced comparison with pricing links, checked 14 Oct 2026
 - [Best vibe-coding app builders 2026](https://shiporskip-ship-or-skip.vercel.app/best/vibe-coding-tools-2026): sourced comparison with pricing links, checked 14 Oct 2026
 
