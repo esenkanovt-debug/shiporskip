@@ -13,6 +13,20 @@ Status: launched October 2026. Issue #1 published 14 October 2026 (agent-enginee
 - [Scoreboard](https://shiporskip-ship-or-skip.vercel.app/scoreboard): every tool tested with scores and verdicts
 - [About & methodology](https://shiporskip-ship-or-skip.vercel.app/about): how we test, scoring rubric, sponsor policy, corrections
 - [Sponsor](https://shiporskip-ship-or-skip.vercel.app/sponsor): sponsorship terms and contact
+- [Submit your tool: free review queue or $99 priority review (verdict never for sale)](https://shiporskip-ship-or-skip.vercel.app/submit): Submit your tool: free review queue or $99 priority review (verdict never for sale)
+- [Which AI coding agent fits you? 4-question quiz](https://shiporskip-ship-or-skip.vercel.app/quiz): Which AI coding agent fits you? 4-question quiz
+- [Index of sourced comparisons and alternatives](https://shiporskip-ship-or-skip.vercel.app/guides): Index of sourced comparisons and alternatives
+
+## Guides (researched from cited public sources, not hands-on tested unless labeled)
+- [Cursor vs Windsurf (now Devin Desktop)](https://shiporskip-ship-or-skip.vercel.app/compare/cursor-vs-windsurf): sourced comparison with pricing links, checked 14 Oct 2026
+- [Cursor vs Claude Code](https://shiporskip-ship-or-skip.vercel.app/compare/cursor-vs-claude-code): sourced comparison with pricing links, checked 14 Oct 2026
+- [Claude Code vs OpenAI Codex](https://shiporskip-ship-or-skip.vercel.app/compare/claude-code-vs-codex): sourced comparison with pricing links, checked 14 Oct 2026
+- [Lovable vs Bolt.new](https://shiporskip-ship-or-skip.vercel.app/compare/lovable-vs-bolt): sourced comparison with pricing links, checked 14 Oct 2026
+- [Devin alternatives](https://shiporskip-ship-or-skip.vercel.app/alternatives/devin): sourced comparison with pricing links, checked 14 Oct 2026
+- [Cursor alternatives](https://shiporskip-ship-or-skip.vercel.app/alternatives/cursor): sourced comparison with pricing links, checked 14 Oct 2026
+- [Lovable alternatives](https://shiporskip-ship-or-skip.vercel.app/alternatives/lovable): sourced comparison with pricing links, checked 14 Oct 2026
+- [Best AI coding agents in 2026 by use case](https://shiporskip-ship-or-skip.vercel.app/best/ai-coding-agents-2026): sourced comparison with pricing links, checked 14 Oct 2026
+- [Best vibe-coding app builders 2026](https://shiporskip-ship-or-skip.vercel.app/best/vibe-coding-tools-2026): sourced comparison with pricing links, checked 14 Oct 2026
 
 ## Contact
 - shiporskip@mail.grokbot.com

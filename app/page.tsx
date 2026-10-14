@@ -22,6 +22,11 @@ export default function Home() {
       <ul className="grid gap-4 sm:grid-cols-2">{CRITERIA.map(c=>(<li key={c.name} className="rounded-xl border border-white/10 bg-white/[0.03] p-5"><h3 className="font-semibold text-white">{c.name}</h3><p className="mt-1 text-gray-400">{c.desc}</p></li>))}</ul>
       <p className="mt-6 text-gray-400">Plus one <strong className="text-skip">Skip this</strong> pick every issue: the hyped tool we'd keep your credit card away from. <Link className="underline" href="/about">Full methodology →</Link></p>
     </section>
+    <section className="grid gap-4 py-6 sm:grid-cols-3">
+      <Link href="/quiz" className="rounded-xl border border-white/10 bg-white/[0.03] p-5 hover:border-ship/40"><h2 className="font-semibold text-white">Which agent fits you?</h2><p className="mt-1 text-sm text-gray-400">30-second quiz → newsletter signup.</p></Link>
+      <Link href="/guides" className="rounded-xl border border-white/10 bg-white/[0.03] p-5 hover:border-ship/40"><h2 className="font-semibold text-white">Compare & alternatives</h2><p className="mt-1 text-sm text-gray-400">Cursor vs Windsurf, Devin alternatives, more.</p></Link>
+      <Link href="/submit" className="rounded-xl border border-white/10 bg-white/[0.03] p-5 hover:border-ship/40"><h2 className="font-semibold text-white">Built a tool?</h2><p className="mt-1 text-sm text-gray-400">Free review queue or $99 priority.</p></Link>
+    </section>
     <Faq items={HOME_FAQ} />
     <section className="my-10 rounded-2xl border border-white/10 bg-white/[0.03] p-8"><h2 className="text-2xl font-bold text-white">Get next week's verdicts before you pay for a trial.</h2><p className="mt-2 mb-6 text-gray-400">One free email a week: what we ran, what broke, and what's worth your money.</p><SignupForm id="footer" /></section>
   </>);
