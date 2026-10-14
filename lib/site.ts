@@ -10,7 +10,6 @@ export const CRITERIA = [
 ];
 export type Verdict = "Ship" | "Skip" | "Wait";
 export type Row = { tool: string; category: string; works: number; ttv: number; price: number; hype: number; verdict: Verdict; issue: string; example?: boolean; sponsored?: boolean };
-// No real reviews yet. Example rows are clearly labeled and exist only to show the format.
 export const ROWS: Row[] = [
   { tool: "agent-engineer", category: "Agent plugin (skills/hooks)", works: 8, ttv: 7, price: 10, hype: 6, verdict: "Ship", issue: "#1" },
   { tool: "Garuda", category: "Coding agent (CLI)", works: 6, ttv: 6, price: 9, hype: 7, verdict: "Ship", issue: "#1" },

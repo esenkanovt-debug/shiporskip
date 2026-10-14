@@ -4,7 +4,7 @@ export const metadata: Metadata = { title: "Scoreboard", description: "The publi
 export default function Page() {
   return (<section className="py-12">
     <h1 className="text-4xl font-black text-white">Scoreboard</h1>
-    <p className="mt-3 max-w-2xl text-gray-300">Every tool we test lands here, good or bad. Scores are out of 5 per criterion. No real reviews have been published yet — the rows below are <strong>clearly-labeled examples</strong> showing the format. Real verdicts start with Issue #1.</p>
+    <p className="mt-3 max-w-2xl text-gray-300">Every tool we test lands here, good or bad. Scores are out of 10 per criterion. Current verdicts come from Issue #1.</p>
     <div className="mt-8"><Scoreboard /></div>
     <p className="mt-4 text-sm text-gray-500">Sponsored tools are marked "Sponsored" and scored with the same rubric — never favourably.</p>
   </section>);

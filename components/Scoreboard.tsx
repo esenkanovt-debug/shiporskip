@@ -4,7 +4,7 @@ export default function Scoreboard({ limit }: { limit?: number }) {
   return (
     <div className="overflow-x-auto rounded-xl border border-white/10">
       <table className="w-full min-w-[640px] text-left text-sm">
-        <caption className="sr-only">Ship or Skip scoreboard (scores out of 5)</caption>
+        <caption className="sr-only">Ship or Skip scoreboard (scores out of 10)</caption>
         <thead className="bg-white/5 text-gray-400"><tr>{["Tool","Category","Works","Time-to-value","Price","Hype vs reality","Verdict"].map(h=><th key={h} scope="col" className="px-4 py-3 font-medium">{h}</th>)}</tr></thead>
         <tbody>
           {rows.map(r => (
